@@ -1,0 +1,6 @@
+Fairness for S1-R1 flows: 0.391
+Fairness for S2-R2 flows: 0.844
+Fairness for S3-R1 flows: 0.811
+Aggregate user-level throughput for flows through T1: 9.701 Gbps
+Aggregate user-level throughput for flows to R1: 9.713 Gbps
+
