@@ -15,7 +15,8 @@ We used the pre-exsisting implemetnation of DCTCP (https://www.nsnam.org/docs/re
   The directory defective_dctcp_fairness includes the code relevant to the delack problem described in the challenges section of our report (challenge 1).
 7) src/internet/model
    This directory contains the source code and headers of the relevant protocols (DCCS, DCTCP, DC-Vegas).
-8) src/internet/dccs_makefile 
+   The directory defective_tcp_dccs includes the code relevant to the large drain cycle problem.
+9) src/internet/dccs_makefile 
    This direcory contains our updated CMakeLists.txt file.
    We recommend adding our protocols manually to your own CMakeLists.txt, and not directly copying this file.
 
