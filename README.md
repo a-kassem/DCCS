@@ -20,6 +20,8 @@ We used the pre-exsisting implemetnation of DCTCP (https://www.nsnam.org/docs/re
    We recommend adding our protocols manually to your own CMakeLists.txt, and not directly copying this file.
 
 #set up
-1) Clone and set up ns-3.
+1) Clone and set up ns-3 (follow their official guides).
 2) Clone our directory.
-3) Recursively copy our directory into ns-allinone-3.40/ns-3.40/ (the directory that contains scratch and src directories).
+3) Recursively copy our directory into "ns-allinone-3.40/ns-3.40/" (the directory that contains scratch and src directories).
+4) Add the relevant protocols to "src/internet/CMakeLists.txt".
+   For each protocol, you must add the relative paths of both the .cc and .h files.
