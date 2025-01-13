@@ -6,17 +6,16 @@ We used the pre-exsisting implemetnation of DCTCP (https://www.nsnam.org/docs/re
 #contents
 1) Papers
    This directory contains the relevant academic papers and our own project report.
-3) scratch/Convergence
-  This directory contains the code used for our evaluations on the single-rack topology.
-  The directory dccs_conv_without_flow_num includes the code relevant to the flow num problem described in the DCCS improvement section of our report.
-  The directory defective_dccs_conv includes the code with a too large drain cycle.
-5) scratch/Fairness
-  This directory contains the code used for our evaluations on the multi-bottleneck topology.
-  The directory defective_dctcp_fairness includes the code relevant to the delack problem described in the challenges section of our report (challenge 1).
-7) src/internet/model
+2) scratch/Convergence
+   This directory contains the code used for our evaluations on the single-rack topology.
+   The directory dccs_conv_without_flow_num contains the code relevant to the flow num problem described in the DCCS improvement section of our report.
+   The directory defective_dccs_conv contains the code with a too large drain cycle.
+3) scratch/Fairness
+   This directory contains the code used for our evaluations on the multi-bottleneck topology.
+   The directory defective_dctcp_fairness contains the code relevant to the delack problem described in the challenges section of our report (challenge 1).
+4) src/internet/model
    This directory contains the source code and headers of the relevant protocols (DCCS, DCTCP, DC-Vegas).
-   The directory defective_tcp_dccs includes the code relevant to the large drain cycle problem.
-9) src/internet/dccs_makefile 
+5) src/internet/dccs_makefile 
    This direcory contains our updated CMakeLists.txt file.
    We recommend adding our protocols manually to your own CMakeLists.txt, and not directly copying this file.
 
